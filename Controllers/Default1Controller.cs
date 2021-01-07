@@ -12,6 +12,9 @@ using System.Web.Http.Results;
 
 namespace WebAPI20201106.Controllers
 {
+    /// <summary>
+    /// 控制器描述
+    /// </summary>
     public class Default1Controller : ApiController
     {
         /// <summary>
