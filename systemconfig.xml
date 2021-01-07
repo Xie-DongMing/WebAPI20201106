@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sys_config_list>
+  <projectid>241</projectid>
+  <IpInfo>127.0.0.1</IpInfo>
+  <orm_connection>
+    <dbtype>Oracle</dbtype>
+    <provider>OLEDBPersistBroker</provider>
+    <datasource>DDPT_UAT01</datasource>
+    <userid>kprjmgr</userid>
+    <password>1AAB7BFF5BE2B54AC2A1287F6EE54DA7</password>
+  </orm_connection>
+  <language_connection>
+    <dbtype>Access</dbtype>
+    <provider>OLEDBPersistBroker</provider>
+    <datasource>UDMO\language.mdb</datasource>
+    <userid />
+    <password />
+  </language_connection>
+  <erp_connection>
+    <datasource>73756E776F646120202020202020202020202020202020202020202020202020556D9E0F8A6AAFB6AE507BA77F28D3F69AE5E098DAE7E48A1EABD3EEE23B9F5D7449F91BF391E6196CB01D2FB145ECEA7A9A563BDC9B858803219BE1D90E76B5C9376B19A256661DF0BF083EE861CA21A0ADABEFB5330ED3722EAC3A1DA6741D7B2E253188EBC20770D4067EADF75F0ECF8E6772D86B76AB1D7E97E3384884EA3B49C66F5AAE394233BDB5D609EC4176C7FC3EDC0DDAFB5730F10A9AE2ABBC9D9A09B86978750827F3D8AFB69DEADD87615835E82C1E9758E0E9ADE66BB23EB5</datasource>
+  </erp_connection>
+ <lk_connection>
+    <datasource>73756E776F64612020202020202020202020202020202020202020202020202065D1C6F52C11726DB6FB8E3D6845512A3AA157D2C2FBBA513C131D1301DDE7540AF6409F876C77C90CAA8579DFB3B2378CED8BDE0557259DE84BFA2F497776107F2180F056523B82BBDBAAA5D82DE95A</datasource>
+  </lk_connection>
+  <erp_interface_config>
+    <execute_file>C:\数据下载\KZS.PLF.PeripheralExchange.Application.exe</execute_file>
+  </erp_interface_config>
+  <webservice_directory>http://127.0.0.1/uat03</webservice_directory>
+  <OAUrl>http://ekp01.sunwoda.com/ekp/sys/webservice/kmReviewWebserviceService?wsdl</OAUrl>
+  <upgrade_schedule>
+    <item orgid="" from="12:00" to="12:30"></item>
+    <item orgid="" from="18:00" to="18:30"></item>
+  </upgrade_schedule>
+  <mes_web_service>
+    <url>http://192.168.6.239:8019</url>
+  </mes_web_service>
+  <qms_web_api>
+    <url>http://192.168.9.140:880/Server.svc/api/invoke</url>
+    <user>qmspro</user>
+    <password>qmspro2018</password>
+  </qms_web_api>
+  <agv_api>
+	<url>http://agvrcs.hzpgmes.sunwoda.com/rcs/services/rest/hikRpcService/genAgvSchedulingTask</url>
+    <user></user>
+    <password></password>
+  </agv_api>
+</sys_config_list>
